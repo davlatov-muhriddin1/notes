@@ -1,0 +1,25 @@
+.notesContent {
+  width: 25rem;
+  height: 15rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  padding: 1rem;
+  position: relative;
+}
+
+.notesContent textarea {
+  width: 100%;
+  height: 11rem;
+  resize: none;
+  outline: none;
+  border: none;
+}
+
+.notesContent button {
+  width: 2.5rem;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  bottom: 0.5rem;
+  right: 1rem;
+}

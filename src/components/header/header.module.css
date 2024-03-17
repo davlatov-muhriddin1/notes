@@ -1,0 +1,27 @@
+.header {
+  padding: 2rem 0;
+}
+
+.headerButton {
+  background-color: #fff;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.3rem 1rem;
+  border-radius: 2rem;
+  transition: scale 0.3s;
+}
+
+.headerButton:active {
+  scale: 0.95;
+}
+
+.headerImage {
+  width: 2.5rem;
+}
+
+.headerButton p {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
